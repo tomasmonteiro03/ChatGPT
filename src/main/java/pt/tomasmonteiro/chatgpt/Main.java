@@ -11,7 +11,7 @@ public class Main {
 
 		OpenaiRequest req = new OpenaiRequest();
 		req.setModel("text-davinci-003");
-		req.setPrompt("You are an AI\nAI");
+		req.setPrompt("You are an AI\nAI:");
 		req.setTemperature(0.5f);
 		req.setMaxTokens(60);
 		req.setTopP(1.0f);
